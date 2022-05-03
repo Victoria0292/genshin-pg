@@ -1,0 +1,260 @@
+body,
+html {
+  height: 100%;
+  margin: 0%;
+}
+
+.gImg1 {
+  /* The image used */
+  background-image: url("gImg1.webp");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect. The background image is fixed so it will
+   not scroll but everything else will. The position is centered and image is set to 
+   not repeat and cover. Cover scales to be as large as possible */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.caption1 {
+  text-align: center;
+  color: white;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  padding: 13px;
+  font-size: 35px;
+  font-weight: 600;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
+      0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
+      0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+/* center content and background is set to ombre */
+.section1 {
+  color: silver;
+  display: block;
+  font-size: 25px;
+  text-align: center;
+  background: linear-gradient(-45deg, #b95df7, #000066);
+  background-size: 400% 400%;
+  animation: gradient 9s ease infinite;
+  padding: 50px;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.section1 p {
+  font-size: 20px;
+}
+
+.gImg2 {
+  /* The image used */
+  background-image: url("gImg2.jpg");
+
+  /* Set a specific height */
+  min-height: 1000px;
+  opacity: 0.7;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.caption2 {
+  color: silver;
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  padding: 13px;
+  font-size: 30px;
+  font-weight: 600;
+  background-color: transparent;
+  line-height: 10em;
+}
+
+.border2 {
+  background: linear-gradient(to right, #660033 0%, #3333cc 100%);
+}
+
+.caption2 .borders2 {
+  background: linear-gradient(to right, #3333cc 0%, #660033 100%);
+  font-size: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.myFav {
+  text-align: center;
+  color: silver;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  padding: 13px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.whole-cont {
+  background: linear-gradient(-45deg, #5c0a0a, #9999ff);
+  background-size: 400% 400%;
+  animation: gradient 9s ease infinite;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  padding-top: 50px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.nameText {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  font-weight: 800;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 1px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.gImg3 {
+  /* The image used */
+  background-image: url("gImg3.png");
+
+  /* Set a specific height */
+  min-height: 1000px;
+  opacity: 0.7;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.caption3 {
+  color: goldenrod;
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  padding: 13px;
+  font-size: 30px;
+  font-weight: 600;
+  background-color: transparent;
+  line-height: 10em;
+}
+
+.border3 {
+  background: linear-gradient(to left, #ccffff 0%, #660066 100%);
+}
+
+.caption3 .borders3 {
+  background: linear-gradient(to right, #0066ff 0%, #660066 100%);
+  font-size: 20px;
+}
