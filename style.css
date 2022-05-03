@@ -122,9 +122,15 @@ html {
 }
 
 .whole-cont {
-  background: linear-gradient(-45deg, #5c0a0a, #9999ff);
-  background-size: 400% 400%;
-  animation: gradient 9s ease infinite;
+  background-color:black;
+background-image:
+radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 10px),
+radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 5px),
+radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 10px),
+radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 5px);
+background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+animation: gradient 600s linear 0.5s 12 none;
 }
 
 /* Slideshow container */
@@ -257,4 +263,18 @@ html {
 .caption3 .borders3 {
   background: linear-gradient(to right, #0066ff 0%, #660066 100%);
   font-size: 21px;
+}
+
+.section3 {
+  color: silver;
+  display: block;
+  font-size: 25px;
+  text-align: center;
+  background-color: #000066;
+  background-size: 400% 400%;
+  padding: 50px;
+}
+
+.section3 p {
+  font-size: 20px;
 }
