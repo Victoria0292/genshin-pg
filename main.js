@@ -6,7 +6,8 @@ The showSlides() function hides (display="none") all elements with the class nam
 "mySlides", and displays (display="block") the element with the given slideIndex.
 If the slideIndex is higher than the number of elements (x.length), the slideIndex 
 is set to zero.
-If the slideIndex is less than 1 it is set to number of elements (x.length).*/
+If the slideIndex is less than 1 it is set to number of elements (x.length).
+This is how the below works.*/
 
 let slideIndex = 1;
 showSlides(slideIndex);
