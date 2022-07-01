@@ -1,14 +1,3 @@
-/*slideIndex will be 1, this is my first img.
-Then call showSlides(slideIndex) to display my first img.
-When I click one of the buttons plusSlides(n)
-the plusSlides(n) function subtracts one or adds one to the slideIndex.
-The showSlides() function hides (display="none") all elements with the class name 
-"mySlides", and displays (display="block") the element with the given slideIndex.
-If the slideIndex is higher than the number of elements (x.length), the slideIndex 
-is set to zero.
-If the slideIndex is less than 1 it is set to number of elements (x.length).
-This is how the below works.*/
-
 let slideIndex = 1;
 showSlides(slideIndex);
 
