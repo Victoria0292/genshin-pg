@@ -11,9 +11,7 @@ html {
   /* Full height */
   height: 100%;
 
-  /* Create the parallax scrolling effect. The background image is fixed so it will
-   not scroll but everything else will. The position is centered and image is set to 
-   not repeat and cover. Cover scales to be as large as possible */
+  /* Create the parallax scrolling effect*/
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
