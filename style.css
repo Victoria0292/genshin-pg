@@ -43,13 +43,13 @@ html {
 
 /* center content and background is set to ombre */
 .section1 {
-  color: silver;
+  color: rgb(0, 0, 0);
   display: block;
   font-size: 25px;
   text-align: center;
-  background: linear-gradient(-45deg, #b95df7, #000066);
+  background: linear-gradient(-45deg, #7100bd, #7bdef7);
   background-size: 400% 400%;
-  animation: gradient 9s ease infinite;
+  animation: gradient 7s ease infinite;
   padding: 50px;
 }
 
