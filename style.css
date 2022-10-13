@@ -47,7 +47,7 @@ html {
   display: block;
   font-size: 25px;
   text-align: center;
-  background: linear-gradient(-45deg, #7100bd, #7bdef7);
+  background: linear-gradient(-45deg, #8c02cc, #81e6ff);
   background-size: 400% 400%;
   animation: gradient 7s ease infinite;
   padding: 50px;
