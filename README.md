@@ -1,2 +1,2 @@
 # genshin-pg
-A webpage I have made from the ground up. I am learning by doing with this webpage and will eventually turn this into an interactive website!
+A webpage I have made from the ground up. I am learning by doing with this webpage utilizing HTML, CSS and a little JavaScript. Eventually I'd like to add more JavaScript and turn this into a website!
