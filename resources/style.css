@@ -6,7 +6,7 @@ html {
 
 .gImg1 {
   /* The image used */
-  background-image: url("gImg1.webp");
+  background-image: url("./images/gImg1.webp");
 
   /* Full height */
   height: 100%;
@@ -71,7 +71,7 @@ html {
 
 .gImg2 {
   /* The image used */
-  background-image: url("gImg2.jpg");
+  background-image: url("./images/gImg2.jpg");
 
   /* Set a specific height */
   min-height: 1000px;
@@ -229,7 +229,7 @@ animation: gradient 600s linear 0.5s 12 none;
 
 .gImg3 {
   /* The image used */
-  background-image: url("gImg3.png");
+  background-image: url("./images/gImg3.png");
 
   /* Set a specific height */
   min-height: 1000px;
